@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profilim">
+
+
+    <EditText
+        android:id="@+id/adBir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADINIZ:"
+        android:textSize="20sp"
+        android:layout_marginTop="5sp"/>
+
+    <EditText
+        android:id="@+id/soyadBir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SOYADINIZ:"
+        android:textSize="20sp"
+        android:layout_marginTop="5sp"/>
+
+    <EditText
+        android:id="@+id/telBir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TELEFON NUMARASI:"
+        android:textSize="20sp"
+        android:layout_marginTop="5sp"/>
+
+
+    <EditText
+        android:id="@+id/mailBir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-MAİL:"
+        android:textSize="20sp"
+        android:layout_marginTop="5sp"/>
+
+    <EditText
+        android:id="@+id/sifreBir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ŞİFRE:"
+        android:textSize="20sp"
+        android:layout_marginTop="5sp"/>
+
+    <EditText
+        android:id="@+id/adresBir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADRES:"
+        android:textSize="20sp"
+        android:layout_marginTop="5sp" />
+
+
+
+
+
+
+</LinearLayout>

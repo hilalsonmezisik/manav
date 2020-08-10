@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UrunEkle">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="187dp"
+            android:layout_height="187dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true">
+
+        </ImageView>
+
+
+    <Button
+        android:id="@+id/SelectImageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ImageView"
+        android:layout_marginBottom="-55dp"
+        android:layout_centerInParent="true"
+        android:text="Resim Ekle"
+        android:textSize="18sp">
+
+    </Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/SelectImageBtn"
+        android:layout_marginBottom="-432dp"
+        android:hint="ÜRÜN KATEGORİNİZİ GİRİNİZ: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/SelectImageBtn"
+        android:layout_marginBottom="-113dp"
+        android:hint="ÜRÜNÜN ADI: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/SelectImageBtn"
+        android:layout_marginBottom="-188dp"
+        android:hint="ÜRÜNÜN FİYATI :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/SelectImageBtn"
+        android:layout_marginBottom="-267dp"
+        android:hint="İl / İlçe: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/SelectImageBtn"
+        android:layout_marginBottom="-347dp"
+        android:hint="AÇIKLAMA: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Ekle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        tools:ignore="OnClick" />
+
+
+
+</RelativeLayout>

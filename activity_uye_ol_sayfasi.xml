@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".uyeOlSayfasi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ADINIZ?"
+                android:textSize="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:id="@+id/editSoyad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SOYADINIZ?"
+                android:textSize="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CİNSİYETİNİZ?"
+                android:textSize="20sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="15sp"/>
+            <CheckBox
+                android:id="@+id/kadin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KADIN"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="15dp"/>
+
+            <CheckBox
+                android:id="@+id/erkek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ERKEK"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/editCep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CEP TELEFONU"
+                android:inputType="phone"
+                android:textSize="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/editSifre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ŞİFRE"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="20dp"/>
+
+
+            <EditText
+                android:id="@+id/editMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="E-MAİL"
+                android:textSize="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:id="@+id/editAdres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ADRESİNİZ..."
+                android:textSize="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="20dp"/>
+
+
+            <CheckBox
+                android:id="@+id/kullanim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kullanım Koşuullarını Kabul Ediyorum."
+                android:textSize="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/uyeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üye Ol"
+                android:textSize="25sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginTop="5dp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

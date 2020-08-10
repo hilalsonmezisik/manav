@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".anasayfa">
+
+    <Button
+        android:id="@+id/btBir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anasayfa"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/btIki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profilim"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/btUc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bana Verilen Siparişler"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/btDort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Benim Verdiğim Siparişler"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/btBes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ürünlerim"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/btAlti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ürün Ekle"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/btnYedi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sepet"
+        android:layout_marginTop="3dp"/>
+
+
+</LinearLayout>
